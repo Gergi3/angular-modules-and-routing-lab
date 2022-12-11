@@ -1,0 +1,8 @@
+<div *ngIf="loading">Loading...</div>
+
+<ng-container *ngIf="!loading">
+  <h3>Details of {{user.name}}</h3>
+  <div>
+    <p class="description"></p>
+  </div>
+</ng-container> 
